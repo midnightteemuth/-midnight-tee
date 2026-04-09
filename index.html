@@ -217,7 +217,7 @@ hr { border:none; border-top:1px solid var(--border); }
 .step::before { content:''; position:absolute; top:0; left:0; right:0; height:2px; background:linear-gradient(90deg,var(--cyan),transparent); transform:scaleX(0); transform-origin:left; transition:transform 0.3s; }
 .step:hover { border-color:rgba(0,200,255,0.3); transform:translateY(-5px); }
 .step:hover::before { transform:scaleX(1); }
-.step-n { font-family:var(--font-d); font-size:52px; font-weight:800; color:rgba(0,200,255,0.08); line-height:1; margin-bottom:1rem; letter-spacing:-0.03em; }
+.step-n { font-family:var(--font-d); font-size:52px; font-weight:800; color:rgba(0,200,255,0.22); line-height:1; margin-bottom:1rem; letter-spacing:-0.03em; }
 .step-t { font-family:var(--font-d); font-size:16px; font-weight:700; margin-bottom:0.5rem; color:var(--white); }
 .step-b { font-size:13px; color:var(--muted); line-height:1.65; font-weight:300; }
 
@@ -553,6 +553,39 @@ footer a:hover { color:var(--cyan); }
 <hr>
 
 <!-- DISCORD -->
+<hr>
+
+<!-- STORE -->
+<section style="padding:6rem 2.5rem; position:relative; z-index:1;">
+  <div style="max-width:1100px; margin:0 auto; width:100%;">
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:5rem; align-items:center;">
+      <div>
+        <span style="font-size:11px; font-weight:600; letter-spacing:0.16em; text-transform:uppercase; color:var(--gold); margin-bottom:1rem; display:block;">Midnight Tee Store</span>
+        <h2 style="font-family:var(--font-d); font-size:clamp(28px,4vw,46px); font-weight:700; line-height:1.12; letter-spacing:-0.02em; margin-bottom:1.25rem;">Rep the movement.<br>Wear the vibe.</h2>
+        <p style="font-size:17px; color:var(--muted); line-height:1.8; max-width:480px; font-weight:300; margin-bottom:2rem;">Official Midnight Tee merch. Wear it to the stream, wear it outside the stream — just know you're repping something real.</p>
+        <a href="#" style="display:inline-flex; align-items:center; gap:10px; padding:15px 30px; background:var(--gold); color:var(--black); font-family:var(--font-d); font-weight:700; font-size:15px; border-radius:9px; text-decoration:none; transition:all 0.2s; opacity:0.9;" onmouseover="this.style.opacity='1';this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 30px rgba(245,166,35,0.3)'" onmouseout="this.style.opacity='0.9';this.style.transform='none';this.style.boxShadow='none'">
+          Visit the store →
+        </a>
+        <p style="font-size:12px; color:var(--muted); margin-top:0.75rem; font-style:italic;">Store coming soon — link dropping in Discord first.</p>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:14px;">
+        <div style="display:flex; align-items:center; gap:12px; padding:16px 18px; background:rgba(245,166,35,0.06); border:1px solid rgba(245,166,35,0.2); border-radius:10px; font-size:15px; color:var(--white); transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(245,166,35,0.4)'" onmouseout="this.style.borderColor='rgba(245,166,35,0.2)'">
+          <span style="font-size:20px;">👕</span> Official Midnight Tee apparel
+          <span style="color:var(--muted); font-size:12px; margin-left:auto;">Coming soon</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:12px; padding:16px 18px; background:rgba(245,166,35,0.06); border:1px solid rgba(245,166,35,0.2); border-radius:10px; font-size:15px; color:var(--white); transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(245,166,35,0.4)'" onmouseout="this.style.borderColor='rgba(245,166,35,0.2)'">
+          <span style="font-size:20px;">🎧</span> Limited drops for the community
+          <span style="color:var(--muted); font-size:12px; margin-left:auto;">Members first</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:12px; padding:16px 18px; background:rgba(245,166,35,0.06); border:1px solid rgba(245,166,35,0.2); border-radius:10px; font-size:15px; color:var(--white); transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(245,166,35,0.4)'" onmouseout="this.style.borderColor='rgba(245,166,35,0.2)'">
+          <span style="font-size:20px;">🌙</span> Late-night energy, wearable
+          <span style="color:var(--muted); font-size:12px; margin-left:auto;">The vibe</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="surf">
   <div class="container">
     <div style="text-align:center; margin-bottom:3rem;">
